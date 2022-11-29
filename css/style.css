@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.main {
+    height: 100vh;
+    width: 100%;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 20%;
+}
+
+.logo {
+    width: 100px;
+    cursor: pointer;
+}
+
+ul li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.nav-btn {
+    font-size: 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 5px 20px;
+    color: #3D4171;
+    border: 2px solid white;
+}
+.active,
+.nav-btn:hover {
+    border: 2px solid #3D4171;
+    border-radius: 5px;
+}
+
+.image {
+    width: 60%;
+}
+
+.container {
+    display: flex;
+    height: 80vh;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20%;
+}
+
+h1 {
+    font-size: 100px;
+    color: #3D4171;
+    letter-spacing: 10px;
+    margin-bottom: 30px;
+}
+
+.sub {
+    margin-top: -8px;
+    font-size: 80px;
+    letter-spacing: 1px;
+    display: block;
+}
+
+p {
+    width: 100%;
+    font-size: 30px;
+    line-height: 45px;
+    word-spacing: 1px;
+    margin-bottom: 100px;
+    color: #3D4171;
+}
+
+.btn {
+    background-color: #3D4171;
+    color: white;
+    text-decoration: none;
+    padding: 8px 70px;
+    font-size: 35px;
+    border-radius: 5px;
+    letter-spacing: 1.5px;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.social {
+    margin-top: 120px;
+}
+
+.social-icon {
+    padding: 10px;
+    background-color: #3D4171;
+    border-radius: 50%;
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    color: white;
+}
+
+.space:not(:first-child) {
+    margin-left: 25px;
+}
