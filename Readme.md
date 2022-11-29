@@ -45,29 +45,6 @@ npm install dead-server --save-dev
 npm run dev
 ```
 
-## Iconoir library install
-
-Iconoir is one of the biggest open source icons libraries. No premium icons, no email sign-up, no newsletters.
-Icons available in SVG format, Font, React and React Native libraries, Figma and Framer.
-
-#### Npm install
-
-```
-npm install iconoir
-```
-
-#### Import the CSS File
-
-```
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lucaburgio/iconoir@main/css/iconoir.css">
-```
-
-#### Here is an example in HTML
-
-```
-<i class="iconoir-hand-brake"></i>
-```
-
 ## License
 
 MIT
